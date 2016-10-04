@@ -40,5 +40,54 @@
         "Value": "EmbeddedSts"
       }
     ]
+  },
+  {
+    "Name": "John",
+    "Claims": [
+      {
+        "Type": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier",
+        "Value": "john"
+      },
+      {
+        "Type": "http://schemas.microsoft.com/accesscontrolservice/2010/07/claims/identityprovider",
+        "Value": "EmbeddedSts"
+      },
+      {
+        "Type": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+        "Value": "jqt@inter.net"
+      },
+      {
+        "Type": "http://schemas.microsoft.com/ws/2008/06/identity/claims/fullName",
+        "Value": "John Q. Test"
+      },
+      {
+        "Type": "http://schemas.microsoft.com/ws/2008/06/identity/claims/role",
+        "Value": "CFTAdmin"
+      },
+      {
+        "Type": "http://schemas.microsoft.com/ws/2008/06/identity/claims/ppaPortfolio",
+        "Value": "ALPHA,GIPMS,SEE BLUE,ActTest1,ActTest2"
+      },
+      {
+        "Type": "http://schemas.microsoft.com/ws/2008/06/identity/claims/ddrPortfolio",
+        "Value": "ALPHA,GIPMS,SEE BLUE,ActTest1,ActTest2"
+      },
+      {
+        "Type": "http://schemas.microsoft.com/ws/2008/06/identity/claims/appAccess",
+        "Value": "VISTAONE"
+      },
+      {
+        "Type": "http://schemas.microsoft.com/ws/2008/06/identity/claims/account",
+        "Value": "Account1,Account2,Account3,Account4"
+      },
+      {
+        "Type": "http://schemas.microsoft.com/ws/2008/06/identity/claims/organization",
+        "Value": "autotest"
+      },
+      {
+        "Type": "http://schemas.microsoft.com/ws/2008/06/identity/claims/features",
+        "Value": "ReturnAnalytics"
+      }
+    ]
   }
 ]
